@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;500&family=Bree+Serif&family=Lato&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zulkefal Fitness</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<style>
+    body{
+        margin: 0px;
+        padding: 0px;
+        background: url('img/bg.jpg') no-repeat center center/cover;
+        color: white;
+    }
+
+    .left{
+        display: inline-block;
+        position: absolute;
+        left: 34px;
+        top: 20px;
+        font-family: 'Baloo Bhai 2', cursive;
+
+
+    }
+    .mid{
+        display: block;
+        width:33%;
+        margin: 29px auto;
+    }
+
+    .right{
+        position: absolute;
+        display: inline-block;
+        right: 43px;
+        top: 33px;
+    }
+    
+
+    .navbar{
+        display: inline-block;
+        font-family: 'Baloo Bhai 2', cursive;
+
+    }
+    .navbar li {
+        display: inline-block;
+        color: white;
+        font-size: 25px;
+    }
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+
+     .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+
+    .left img{
+        width: 90px;
+        filter: invert(100%);
+    }
+
+    .left div{
+        text-align: center;
+        line-height: 19px;
+        font-size: 26px;
+    }
+
+    .navbar li a:hover,.navbar li a:active  {
+        
+        text-decoration: underline;
+        color: grey;
+    }
+
+    .btn{
+        margin: 0px 9px;
+        background-color: rgb(136, 85, 85);
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+        font-family: 'Baloo Bhai 2', cursive;
+
+    }
+
+    .btn:hover{
+        background-color: rgb(19, 18, 18);
+    }
+
+    .container{
+        border: 2px solid white;
+        margin: 2px 2px;
+        padding: 2px 2px;
+        display: block;
+        width: 33%;
+        border-radius: 10px;
+        align-items: center;
+        justify-content: center;
+        margin-left: 800px;
+        margin-top: 120px;
+    }
+
+    .form-group input{
+        font-family: 'Baloo Bhai 2', cursive;
+        text-align: center;
+        display: block;
+        width: 500px;
+        padding: 1px;
+        border: 2px solid white;
+        margin: 11px auto;
+        font-size:25px ;
+        border-radius: 8px;
+    }
+
+    .container h1{
+        text-align: center;
+    }
+
+    .container button{
+        text-align: center;
+        display: block;
+        width: 74%;
+        margin: 20px auto;
+
+    }
+    .container button:hover{
+        background-color: black;
+    }
+</style>
+<body>
+
+    <header class="header">
+
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="img/logo.png" alt="logo" >
+            <div>
+                Zulkefal Fitness
+            </div>
+        </div>
+        
+        <!-- mid box for navigation -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact US</a></li>
+            </ul>
+        </div>
+
+        <!-- right box for cta -->
+        <div class="right">
+            <button class="btn">
+               Call us Now
+            </button>
+            <button class="btn">
+              Email
+            </button>
+        </div>
+    </header>
+
+    <div class="container">
+        <h1>Join the Best GYM of Islamabad</h1>
+
+        <form action="noaction.php">
+            <div class="form-group">
+
+                <input type="text" name="" placeholder="Enter Your Name"> <br>
+                <input type="text" name="" placeholder="Enter Your Age"><br>
+                <input type="text" name="" placeholder="Enter Your Gender"><br>
+                <input type="text" name="" placeholder="Enter Your Locality"><br>
+            </div>
+        <button class="btn">Submit</button>
+        </form>
+    </div>
+    
+</body>
+</html>
